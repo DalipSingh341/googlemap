@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 1024px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 100%;
+  height: 1024px;
+}
+
+.gmap_iframe {
+  height: 1024px !important;
+}
+
+/* Set the size of the div element that contains the map */
+
+.map {
+  width: 500px;
+  height: 500px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+img [draggable="false"] {
+  width: 30px;
+  height: 30px;
+  user-select: none;
+  padding: 0px;
+  background: rgb(17 125 230) !important;
+  margin: 0px;
+  max-width: none;
+  border-radius: 117px;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+.popupwidth {
+  width: 300px;
+  padding: 15px 0px 15px 15px;
+}
+
+.gm-style .gm-style-iw-c {
+  position: absolute;
+  box-sizing: border-box;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -100%);
+  background-color: white;
+  border-radius: 0px 0px 8px 8px;
+  padding: 0;
+  box-shadow: 0 2px 7px 1px rgb(0 0 0 / 30%);
+}
+
+.details h5 {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.details p span {
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #000;
+}
+
+.details p {
+  font-size: 14px;
+  margin-bottom: 7px;
+  letter-spacing: 1px;
+  color: #5f6368;
+  font-weight: 400;
+}
+
+.gm-ui-hover-effect {
+  user-select: none;
+  top: -1 !important;
+  right: 0 !important;
+  width: 30px !important;
+  height: 30px !important;
+  background: #b8b8b8 !important;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+.gm-style .gm-style-iw-c {
+  border-top: 5px solid;
+  border-image: linear-gradient(45deg, #164aaf, #20232c) 1;
+}
